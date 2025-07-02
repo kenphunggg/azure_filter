@@ -1,5 +1,9 @@
 .venv/
 azurefunctions-dataset2019.tar.xz
 __pycache__
-data/*
-!data/.gitkeep
+data/app_memory/*
+data/function_durations/*
+data/invocations/*
+!data/app_memory/.gitkeep
+!data/function_durations/.gitkeep
+!data/invocations/.gitkeep
