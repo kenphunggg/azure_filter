@@ -1,0 +1,5 @@
+.venv/
+azurefunctions-dataset2019.tar.xz
+__pycache__
+data/*
+!data/.gitkeep
