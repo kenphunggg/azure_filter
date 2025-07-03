@@ -20,7 +20,7 @@ class Const:
 
 def getFile(folder: str):
     files = [f for f in os.listdir(
-        folder) if os.path.isfile(os.path.join(folder, f))]
+        folder) if os.path.isfile(os.path.join(folder, f)) and f != '.gitkeep']
 
     # idx = 0
     # for f in files:
